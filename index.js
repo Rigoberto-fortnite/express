@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const app = express();
+const app = express(app);
 
 // Serve /home
 app.get('/home', (req, res) => {
